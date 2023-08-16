@@ -1,0 +1,3 @@
+D:\msys\mingw64\bin\cmake.exe -E rm -f CMakeFiles\PicTest3.dir/objects.a
+D:\msys\mingw64\bin\ar.exe qc CMakeFiles\PicTest3.dir/objects.a @CMakeFiles\PicTest3.dir\objects1.rsp
+D:\msys\mingw64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\PicTest3.dir/objects.a -Wl,--no-whole-archive -o PicTest3.exe -Wl,--out-implib,libPicTest3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PicTest3.dir\linkLibs.rsp
