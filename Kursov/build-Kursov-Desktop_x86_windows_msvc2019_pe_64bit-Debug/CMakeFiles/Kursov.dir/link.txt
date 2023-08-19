@@ -1,0 +1,3 @@
+D:\msys\mingw64\bin\cmake.exe -E rm -f CMakeFiles\Kursov.dir/objects.a
+D:\msys\mingw64\bin\ar.exe qc CMakeFiles\Kursov.dir/objects.a @CMakeFiles\Kursov.dir\objects1.rsp
+D:\msys\mingw64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\Kursov.dir/objects.a -Wl,--no-whole-archive -o Kursov.exe -Wl,--out-implib,libKursov.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Kursov.dir\linkLibs.rsp
