@@ -524,6 +524,12 @@ CMakeFiles/Kursov.dir/mainwindow.cpp.obj: \
  D:/msys/mingw64/include/qt6/QtWidgets/qabstractbutton.h \
  D:/msys/mingw64/include/qt6/QtWidgets/QFrame \
  D:/msys/mingw64/include/qt6/QtWidgets/qframe.h \
+ D:/msys/mingw64/include/qt6/QtWidgets/QGridLayout \
+ D:/msys/mingw64/include/qt6/QtWidgets/qgridlayout.h \
+ D:/msys/mingw64/include/qt6/QtWidgets/qlayout.h \
+ D:/msys/mingw64/include/qt6/QtWidgets/qlayoutitem.h \
+ D:/msys/mingw64/include/qt6/QtWidgets/qboxlayout.h \
+ D:/msys/mingw64/include/qt6/QtWidgets/qgridlayout.h \
  D:/msys/mingw64/include/qt6/QtWidgets/QLabel \
  D:/msys/mingw64/include/qt6/QtWidgets/qlabel.h \
  D:/msys/mingw64/include/qt6/QtWidgets/qframe.h \
@@ -542,6 +548,14 @@ CMakeFiles/Kursov.dir/mainwindow.cpp.obj: \
  D:/msys/mingw64/include/qt6/QtWidgets/qsplitter.h \
  D:/msys/mingw64/include/qt6/QtWidgets/QStatusBar \
  D:/msys/mingw64/include/qt6/QtWidgets/qstatusbar.h \
+ D:/msys/mingw64/include/qt6/QtWidgets/QTextBrowser \
+ D:/msys/mingw64/include/qt6/QtWidgets/qtextbrowser.h \
+ D:/msys/mingw64/include/qt6/QtWidgets/qtextedit.h \
+ D:/msys/mingw64/include/qt6/QtWidgets/qabstractscrollarea.h \
+ D:/msys/mingw64/include/qt6/QtGui/qtextoption.h \
+ D:/msys/mingw64/include/qt6/QtGui/qtextcursor.h \
+ D:/msys/mingw64/include/qt6/QtGui/qtextformat.h \
+ D:/msys/mingw64/include/qt6/QtGui/qpen.h \
  D:/msys/mingw64/include/qt6/QtWidgets/QWidget \
  D:/msys/mingw64/include/qt6/QtWidgets/qwidget.h \
  D:/msys/mingw64/include/qt6/QtWidgets/QFileDialog \

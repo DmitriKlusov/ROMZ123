@@ -30,5 +30,13 @@ public:
     cv::Mat img;
     QImage image;
     QPixmap pixel;
+    int Verh = 120, Niz = 420, Hight = 150, Rmax = 255, Gmax = 255, Bmax = 255;
+private slots:
+    void on_Rmin_Slider_valueChanged(int value);
+    void on_Gmin_Slider_valueChanged(int value);
+    void on_Bmin_Slider_valueChanged(int value);
+    void on_Rmax_Slider_valueChanged(int value);
+    void on_Gmax_Slider_valueChanged(int value);
+    void on_Bmax_Slider_valueChanged(int value);
 };
 #endif // MAINWINDOW_H

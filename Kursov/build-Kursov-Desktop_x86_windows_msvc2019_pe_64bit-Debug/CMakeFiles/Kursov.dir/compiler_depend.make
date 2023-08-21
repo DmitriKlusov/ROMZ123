@@ -1518,6 +1518,7 @@ CMakeFiles/Kursov.dir/mainwindow.cpp.obj: C:/Users/User/ROMZ123/Kursov/Kursov/ma
   D:/msys/mingw64/include/qt6/QtGui/qkeysequence.h \
   D:/msys/mingw64/include/qt6/QtGui/qpaintdevice.h \
   D:/msys/mingw64/include/qt6/QtGui/qpalette.h \
+  D:/msys/mingw64/include/qt6/QtGui/qpen.h \
   D:/msys/mingw64/include/qt6/QtGui/qpicture.h \
   D:/msys/mingw64/include/qt6/QtGui/qpixelformat.h \
   D:/msys/mingw64/include/qt6/QtGui/qpixmap.h \
@@ -1525,7 +1526,10 @@ CMakeFiles/Kursov.dir/mainwindow.cpp.obj: C:/Users/User/ROMZ123/Kursov/Kursov/ma
   D:/msys/mingw64/include/qt6/QtGui/qregion.h \
   D:/msys/mingw64/include/qt6/QtGui/qrgb.h \
   D:/msys/mingw64/include/qt6/QtGui/qrgba64.h \
+  D:/msys/mingw64/include/qt6/QtGui/qtextcursor.h \
   D:/msys/mingw64/include/qt6/QtGui/qtextdocument.h \
+  D:/msys/mingw64/include/qt6/QtGui/qtextformat.h \
+  D:/msys/mingw64/include/qt6/QtGui/qtextoption.h \
   D:/msys/mingw64/include/qt6/QtGui/qtgui-config.h \
   D:/msys/mingw64/include/qt6/QtGui/qtguiexports.h \
   D:/msys/mingw64/include/qt6/QtGui/qtguiglobal.h \
@@ -1536,21 +1540,28 @@ CMakeFiles/Kursov.dir/mainwindow.cpp.obj: C:/Users/User/ROMZ123/Kursov/Kursov/ma
   D:/msys/mingw64/include/qt6/QtWidgets/QCheckBox \
   D:/msys/mingw64/include/qt6/QtWidgets/QFileDialog \
   D:/msys/mingw64/include/qt6/QtWidgets/QFrame \
+  D:/msys/mingw64/include/qt6/QtWidgets/QGridLayout \
   D:/msys/mingw64/include/qt6/QtWidgets/QLabel \
   D:/msys/mingw64/include/qt6/QtWidgets/QMainWindow \
   D:/msys/mingw64/include/qt6/QtWidgets/QMenuBar \
   D:/msys/mingw64/include/qt6/QtWidgets/QSlider \
   D:/msys/mingw64/include/qt6/QtWidgets/QSplitter \
   D:/msys/mingw64/include/qt6/QtWidgets/QStatusBar \
+  D:/msys/mingw64/include/qt6/QtWidgets/QTextBrowser \
   D:/msys/mingw64/include/qt6/QtWidgets/QWidget \
   D:/msys/mingw64/include/qt6/QtWidgets/qabstractbutton.h \
+  D:/msys/mingw64/include/qt6/QtWidgets/qabstractscrollarea.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qabstractslider.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qapplication.h \
+  D:/msys/mingw64/include/qt6/QtWidgets/qboxlayout.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qcheckbox.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qdialog.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qfiledialog.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qframe.h \
+  D:/msys/mingw64/include/qt6/QtWidgets/qgridlayout.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qlabel.h \
+  D:/msys/mingw64/include/qt6/QtWidgets/qlayout.h \
+  D:/msys/mingw64/include/qt6/QtWidgets/qlayoutitem.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qmainwindow.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qmenu.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qmenubar.h \
@@ -1559,6 +1570,8 @@ CMakeFiles/Kursov.dir/mainwindow.cpp.obj: C:/Users/User/ROMZ123/Kursov/Kursov/ma
   D:/msys/mingw64/include/qt6/QtWidgets/qsplitter.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qstatusbar.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qtabwidget.h \
+  D:/msys/mingw64/include/qt6/QtWidgets/qtextbrowser.h \
+  D:/msys/mingw64/include/qt6/QtWidgets/qtextedit.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qtwidgets-config.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qtwidgetsexports.h \
   D:/msys/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -1596,9 +1609,15 @@ CMakeFiles/Kursov.dir/mainwindow.cpp.obj: C:/Users/User/ROMZ123/Kursov/Kursov/ma
   D:/msys/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xmmintrin.h
 
 
+D:/msys/mingw64/include/qt6/QtWidgets/qtextbrowser.h:
+
 D:/msys/mingw64/include/qt6/QtWidgets/qslider.h:
 
 D:/msys/mingw64/include/qt6/QtWidgets/qmenu.h:
+
+D:/msys/mingw64/include/qt6/QtWidgets/qlayoutitem.h:
+
+D:/msys/mingw64/include/qt6/QtWidgets/qlayout.h:
 
 D:/msys/mingw64/include/qt6/QtWidgets/qframe.h:
 
@@ -1612,9 +1631,15 @@ D:/msys/mingw64/include/qt6/QtWidgets/QFrame:
 
 D:/msys/mingw64/include/qt6/QtWidgets/QCheckBox:
 
+D:/msys/mingw64/include/qt6/QtGui/qtextformat.h:
+
 D:/msys/mingw64/include/qt6/QtGui/qtextdocument.h:
 
+D:/msys/mingw64/include/qt6/QtGui/qtextcursor.h:
+
 D:/msys/mingw64/include/qt6/QtGui/qpicture.h:
+
+D:/msys/mingw64/include/qt6/QtGui/qpen.h:
 
 D:/msys/mingw64/include/qt6/QtWidgets/QSlider:
 
@@ -1654,7 +1679,11 @@ D:/msys/mingw64/include/crtdefs.h:
 
 D:/msys/mingw64/include/opencv4/opencv2/core/check.hpp:
 
+D:/msys/mingw64/include/qt6/QtWidgets/qabstractscrollarea.h:
+
 D:/msys/mingw64/include/qt6/QtCore/qsysinfo.h:
+
+D:/msys/mingw64/include/qt6/QtWidgets/QGridLayout:
 
 D:/msys/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/messages_members.h:
 
@@ -1699,6 +1728,8 @@ D:/msys/mingw64/include/c++/13.2.0/tr1/legendre_function.tcc:
 D:/msys/mingw64/include/qt6/QtCore/qdatastream.h:
 
 D:/msys/mingw64/include/opencv4/opencv2/core/bufferpool.hpp:
+
+D:/msys/mingw64/include/qt6/QtWidgets/qboxlayout.h:
 
 D:/msys/mingw64/include/c++/13.2.0/utility:
 
@@ -1791,6 +1822,8 @@ D:/msys/mingw64/include/qt6/QtCore/qmath.h:
 D:/msys/mingw64/include/corecrt.h:
 
 D:/msys/mingw64/include/c++/13.2.0/ext/atomicity.h:
+
+D:/msys/mingw64/include/qt6/QtWidgets/qtextedit.h:
 
 D:/msys/mingw64/include/c++/13.2.0/ext/alloc_traits.h:
 
@@ -2090,6 +2123,8 @@ D:/msys/mingw64/include/c++/13.2.0/bits/basic_string.h:
 
 D:/msys/mingw64/include/c++/13.2.0/bits/basic_ios.h:
 
+D:/msys/mingw64/include/qt6/QtWidgets/QTextBrowser:
+
 D:/msys/mingw64/include/qt6/QtCore/qconfig.h:
 
 D:/msys/mingw64/include/c++/13.2.0/bits/fs_ops.h:
@@ -2344,6 +2379,8 @@ D:/msys/mingw64/include/c++/13.2.0/bits/localefwd.h:
 
 D:/msys/mingw64/include/opencv4/opencv2/flann/random.h:
 
+D:/msys/mingw64/include/qt6/QtWidgets/qgridlayout.h:
+
 D:/msys/mingw64/include/c++/13.2.0/bits/new_allocator.h:
 
 D:/msys/mingw64/include/opencv4/opencv2/flann/result_set.h:
@@ -2445,6 +2482,8 @@ D:/msys/mingw64/include/qt6/QtCore/qalgorithms.h:
 D:/msys/mingw64/include/qt6/QtCore/qarraydataops.h:
 
 D:/msys/mingw64/include/qt6/QtCore/qarraydatapointer.h:
+
+D:/msys/mingw64/include/qt6/QtGui/qtextoption.h:
 
 D:/msys/mingw64/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
 
