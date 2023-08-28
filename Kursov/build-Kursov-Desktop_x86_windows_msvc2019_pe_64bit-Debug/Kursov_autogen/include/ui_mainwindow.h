@@ -35,7 +35,7 @@ public:
     QSplitter *splitter;
     QLabel *origin_label;
     QLabel *Thresh_label;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QGridLayout *gridLayout;
     QTextBrowser *textBrowser_5;
     QSlider *Gmin_Slider;
@@ -85,26 +85,27 @@ public:
         Thresh_label->setObjectName("Thresh_label");
         Thresh_label->setMinimumSize(QSize(550, 400));
         splitter->addWidget(Thresh_label);
-        widget = new QWidget(centralwidget);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(1270, 160, 221, 501));
-        gridLayout = new QGridLayout(widget);
+        layoutWidget = new QWidget(centralwidget);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(1270, 160, 221, 637));
+        gridLayout = new QGridLayout(layoutWidget);
         gridLayout->setObjectName("gridLayout");
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        textBrowser_5 = new QTextBrowser(widget);
+        textBrowser_5 = new QTextBrowser(layoutWidget);
         textBrowser_5->setObjectName("textBrowser_5");
 
         gridLayout->addWidget(textBrowser_5, 10, 0, 1, 1);
 
-        Gmin_Slider = new QSlider(widget);
+        Gmin_Slider = new QSlider(layoutWidget);
         Gmin_Slider->setObjectName("Gmin_Slider");
-        Gmin_Slider->setMaximum(500);
-        Gmin_Slider->setSliderPosition(420);
+        Gmin_Slider->setMaximum(540);
+        Gmin_Slider->setValue(500);
+        Gmin_Slider->setSliderPosition(500);
         Gmin_Slider->setOrientation(Qt::Horizontal);
 
         gridLayout->addWidget(Gmin_Slider, 3, 0, 1, 1);
 
-        Rmax_Slider = new QSlider(widget);
+        Rmax_Slider = new QSlider(layoutWidget);
         Rmax_Slider->setObjectName("Rmax_Slider");
         Rmax_Slider->setMaximum(255);
         Rmax_Slider->setSliderPosition(255);
@@ -112,22 +113,22 @@ public:
 
         gridLayout->addWidget(Rmax_Slider, 7, 0, 1, 1);
 
-        textBrowser_6 = new QTextBrowser(widget);
+        textBrowser_6 = new QTextBrowser(layoutWidget);
         textBrowser_6->setObjectName("textBrowser_6");
 
         gridLayout->addWidget(textBrowser_6, 8, 0, 1, 1);
 
-        textBrowser_4 = new QTextBrowser(widget);
+        textBrowser_4 = new QTextBrowser(layoutWidget);
         textBrowser_4->setObjectName("textBrowser_4");
 
         gridLayout->addWidget(textBrowser_4, 6, 0, 1, 1);
 
-        textBrowser_3 = new QTextBrowser(widget);
+        textBrowser_3 = new QTextBrowser(layoutWidget);
         textBrowser_3->setObjectName("textBrowser_3");
 
         gridLayout->addWidget(textBrowser_3, 4, 0, 1, 1);
 
-        Gmax_Slider = new QSlider(widget);
+        Gmax_Slider = new QSlider(layoutWidget);
         Gmax_Slider->setObjectName("Gmax_Slider");
         Gmax_Slider->setMaximum(255);
         Gmax_Slider->setSliderPosition(255);
@@ -135,15 +136,15 @@ public:
 
         gridLayout->addWidget(Gmax_Slider, 9, 0, 1, 1);
 
-        Rmin_Slider = new QSlider(widget);
+        Rmin_Slider = new QSlider(layoutWidget);
         Rmin_Slider->setObjectName("Rmin_Slider");
-        Rmin_Slider->setMaximum(150);
-        Rmin_Slider->setSliderPosition(120);
+        Rmin_Slider->setMaximum(170);
+        Rmin_Slider->setSliderPosition(150);
         Rmin_Slider->setOrientation(Qt::Horizontal);
 
         gridLayout->addWidget(Rmin_Slider, 1, 0, 1, 1);
 
-        Bmax_Slider = new QSlider(widget);
+        Bmax_Slider = new QSlider(layoutWidget);
         Bmax_Slider->setObjectName("Bmax_Slider");
         Bmax_Slider->setMaximum(255);
         Bmax_Slider->setSliderPosition(255);
@@ -151,12 +152,12 @@ public:
 
         gridLayout->addWidget(Bmax_Slider, 11, 0, 1, 1);
 
-        textBrowser_2 = new QTextBrowser(widget);
+        textBrowser_2 = new QTextBrowser(layoutWidget);
         textBrowser_2->setObjectName("textBrowser_2");
 
         gridLayout->addWidget(textBrowser_2, 2, 0, 1, 1);
 
-        Bmin_Slider = new QSlider(widget);
+        Bmin_Slider = new QSlider(layoutWidget);
         Bmin_Slider->setObjectName("Bmin_Slider");
         Bmin_Slider->setMaximum(160);
         Bmin_Slider->setSliderPosition(150);
@@ -164,7 +165,7 @@ public:
 
         gridLayout->addWidget(Bmin_Slider, 5, 0, 1, 1);
 
-        textBrowser = new QTextBrowser(widget);
+        textBrowser = new QTextBrowser(layoutWidget);
         textBrowser->setObjectName("textBrowser");
 
         gridLayout->addWidget(textBrowser, 0, 0, 1, 1);

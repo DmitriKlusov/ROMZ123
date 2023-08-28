@@ -26,11 +26,12 @@ public slots:
 private:
     Ui::MainWindow *ui;
 public:
+    std::vector<cv::Mat> frames;
     cv::VideoCapture cap;
     cv::Mat img;
     QImage image;
     QPixmap pixel;
-    int Verh = 120, Niz = 420, Hight = 150, Rmax = 255, Gmax = 255, Bmax = 255;
+    int Verh = 150, Niz = 500, Hight = 150, Rmax = 255, Gmax = 255, Bmax = 255;
 private slots:
     void on_Rmin_Slider_valueChanged(int value);
     void on_Gmin_Slider_valueChanged(int value);
